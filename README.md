@@ -37,6 +37,10 @@ Los mensajes se guardan en `application.log`, que se crea automáticamente si no
 ## Resultado
 ![ejercicio03.png](ejercicio03.png)
 
+## Concepto clave:
+synchronized garantiza que las llamadas a los métodos de escritura de esta instancia se ejecuten de forma coordinada. 
+La sincronización de getInstance() también evita que dos hilos creen instancias simultáneamente.
+
 ## Conclusión
 
 Este ejercicio demuestra cómo Singleton permite centralizar el registro de eventos y compartir un recurso de escritura entre diferentes componentes.
